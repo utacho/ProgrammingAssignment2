@@ -57,3 +57,11 @@ cacheSolve <- function(x, ...) {
     x$setInverse(inv)
     inv
 }
+
+
+
+# example for testing
+#z <- makeCacheMatrix(matrix(c(1,1,4,0,3,1,4,4,0), nrow = 3, ncol = 3))
+#x <- cacheSolve(z)
+#x
+
